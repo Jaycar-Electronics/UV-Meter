@@ -2,10 +2,11 @@
 #include <SdFat.h>
 #include <sdios.h>
 
-#define SEGMENT_CS 6
-#define SEGMENT_DIN 7
-#define SEGMENT_CLK 8
+#define SEGMENT_CS 9
+#define SEGMENT_DIN 8
+#define SEGMENT_CLK 7
 #define SD_CS 10
+#define UV_METER A1
 
 //rest of the segment uses SPI
 RTC_DS1307 rtc;
@@ -60,7 +61,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   DateTime now = rtc.now();
    
-  int reading = analogRead(A0);
+  int reading = analogRead(UV_METER);
   int minutes = now.minute();
   int hours = now.hour();  
   
