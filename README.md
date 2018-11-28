@@ -37,6 +37,7 @@ This simple yet effective project will provide a way to the UV levels in your ar
 ## Assembly instructions
 
 1. Remove all header pins as per databook instructions
+![](images/IMAG0303.jpg)
 2. solder 5 lots of solid core wire
 1. hot glue module onto shield
 3. solder in place 5 wires
