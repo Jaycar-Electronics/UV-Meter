@@ -44,7 +44,7 @@ Start by removing all header pins from the modules. If you have not removed pins
 # 2.
 Solder 5 pieces of solid core wire to the rear of the LCD display output. The colours don't need to match ours, however using different colours will assist in wiring the board later.
 
-<img src="images/IMAG0305.jpg" width="50%" height="50%" />
+<img src="images/IMAG0305.jpg" width="50%" height="50%" border="1" />
 
 # 3.
 Place a small amount of hot glue onto the end of the board opposite to the SD card slot, and mount the LCD display as shown below.
