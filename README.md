@@ -36,11 +36,37 @@ This simple yet effective project will provide a way to the UV levels in your ar
 
 ## Assembly instructions
 
-1. Remove all header pins as per databook instructions
-![](images/IMAG0303.jpg)
-2. solder 5 lots of solid core wire
-1. hot glue module onto shield
-3. solder in place 5 wires
-2. solder header onto UV meter (note: XC3714 module has 5 header pins, which we can use 3 of to connect.)
-4. mount uv meter over wires
-5. wire uv meter to A1, 5v gnd.
+# 1.
+Start by removing all header pins from the modules. If you have not removed pins from circuit boards before, we have a helpful guide located  [here](../../databook/blob/master/tutorial/Removing%20Headers.mdd).
+
+<img src="images/IMAG0303.jpg" width="50%" height="50%" />
+
+# 2.
+Solder 5 pieces of solid core wire to the rear of the LCD display output. The colours don't need to match ours, however using different colours will assist in wiring the board later.
+
+<img src="images/IMAG0305.jpg" width="50%" height="50%" />
+
+# 3.
+Place a small amount of hot glue onto the end of the board opposite to the SD card slot, and mount the LCD display as shown below.
+
+<img src="images/IMAG0306.jpg" width="50%" height="50%" /><img src="images/IMAG0307.jpg" width="50%" height="50%" />
+
+# 4.
+Matching the colours from step 2 or by using the connection table, solder the wires in place onto the board.
+
+<img src="images/IMAG0309.jpg" width="50%" height="50%" />
+
+# 5.
+Solder header onto UV meter (note: XC3714 module has 5 header pins, which we can use 3 of to connect.)
+
+<img src="" width="50%" height="50%" />
+
+# 6.
+Mount the UV sensor on the board, ensuring the wires from the LCD are routed underneath.
+
+<img src="images/IMAG0311.jpg" width="50%" height="50%" />
+
+# 7.
+Finally, you will need to link the contacts for A5, +5V & GND. While you can do this using wire, we have found the pictured method was ideal for the simplistic nature of the kit.
+
+<img src="images/IMAG0312.jpg" width="50%" height="50%" /><img src="images/IMAG0313.jpg" width="50%" height="50%" />
