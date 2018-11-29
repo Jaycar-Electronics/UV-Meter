@@ -37,7 +37,7 @@ This simple yet effective project will provide a way to the UV levels in your ar
 ## Assembly instructions
 
 # 1.
-Start by removing all header pins from the modules. If you have not removed pins from circuit boards before, we have a helpful guide located  [here](../../databook/blob/master/tutorial/Removing%20Headers.mdd).
+Start by removing all header pins from the modules. If you have not removed pins from circuit boards before, we have a helpful guide located  [here](https://github.com/Jaycar-Electronics/databook/blob/master/tutorial/Removing%20Headers.md).
 
 <img src="images/IMAG0303.jpg" width="50%" height="50%" />
 
@@ -57,7 +57,7 @@ Matching the colours from step 2 or by using the connection table, solder the wi
 <img src="images/IMAG0309.jpg" width="50%" height="50%" />
 
 # 5.
-Solder header onto UV meter (note: XC3714 module has 5 header pins, which we can use 3 of to connect.)
+Solder a header onto the UV meter. While the XC3714 module has 5 header pins, we only need 3 for use with this project.
 
 <img src="" width="50%" height="50%" />
 
