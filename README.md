@@ -81,6 +81,11 @@ Here I used wire on the top side of the board for the nearby 5V and A1, with the
 ## Programming
 No special programming, but the RTC will auto-initialise to your computer time at time of programming if it's not already running.
 
+## Use
+When you power on the device and leave it in the sun, the digits on the display will show. The 4 digits on the left hand side of the display is the UV reading, and the right hand side is the time (24 hour format) 
+for instance, `0034.08.08.` will be the UV reading of 34, at 8 past 8 in the morning.
+When you insert an SD card, you must reset the unit, and it will mount the SD card and begin writing log files until the SD card is full.
+
 ## Future Improvements
 
 * You could add a temperature sensor [XC4494](https://jaycar.com.au/p/XC4494) to show a more complete readout of the outside setting.
