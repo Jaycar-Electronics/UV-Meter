@@ -88,7 +88,7 @@ When you insert an SD card, you must reset the unit, and it will mount the SD ca
 
 SD logging is in the form of 
 `20181225 15:15:05,32`
-which will correspond to a reading of 32 at 3:15 pm on the 25th of December, 2018 (YYYYMMDD HH:MM:SS, UV)
+which will correspond to a reading of 32 at 3:15 pm on the 25th of December, 2018 `(YYYYMMDD HH:MM:SS, UV)`
 
 ## Future Improvements
 
