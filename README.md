@@ -79,12 +79,16 @@ Connect the `+` `-` to `5v` and `GND` and the `out` signal over to `A1`. You can
 Here I used wire on the top side of the board for the nearby 5V and A1, with the Ground signal using the bottom side to go across to Ground.
 
 ## Programming
-No special programming, but the RTC will auto-initialise to your computer time at time of programming if it's not already running.
+No special programming, but the RTC will auto-initialise to your compiled at time at time of programming if it's not already running.
 
 ## Use
 When you power on the device and leave it in the sun, the digits on the display will show. The 4 digits on the left hand side of the display is the UV reading, and the right hand side is the time (24 hour format) 
 for instance, `0034.08.08.` will be the UV reading of 34, at 8 past 8 in the morning.
 When you insert an SD card, you must reset the unit, and it will mount the SD card and begin writing log files until the SD card is full.
+
+SD logging is in the form of 
+`20181225 15:15:05,32`
+which will correspond to a reading of 32 at 3:15 pm on the 25th of December, 2018 (YYYYMMDD HH:MM:SS, UV)
 
 ## Future Improvements
 
